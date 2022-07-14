@@ -10,7 +10,6 @@ public class BaseClass {
 		driver = new ChromeDriver();
 		driver.get("https://accounts.google.com/");
 		driver.manage().window().maximize();
-//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		return driver;
 	}
 	
